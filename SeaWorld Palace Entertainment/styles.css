@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+button {
+    height: 35px;
+}
+
+.title {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.body {
+    background-color: white;
+    height: 560px;
+}

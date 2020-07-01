@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- HTML Link -->
+        <a href="https://www.w3schools.com/html/">Visit our HTML tutorial.</a>
+        <br><br>
+
+        <!-- Local Links -->
+        <a href="html_images.asp">HTML Images</a>
+        <br><br>
+
+        <!-- Target Attribute 
+            _blank - opens the linked document in a new window or tab
+            _self - opens the linked document in the same window/tab as it was clicked (default)
+            _parent - opens the linked document in the parent frame
+            _top - opens the linked document in the full body of the window
+            framename - opens the linked document in a named frame
+        -->
+
+        <!-- New browser window or tab -->
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+        <br><br>
+
+        <!-- Break out of the frame -->
+        <a href="https://www.w3schools.com/" target="_top">HTML tutorial!</a>
+        <br><br>
+
+        <!-- Image as a link -->
+        <a href="default.asp">
+            <img src="smiley.gif" alt="HTML tutorial" style="width:42px; height:42px; border:0;">
+        </a>
+        <br><br>
+
+        <!-- Button as a link -->
+        <button onclick="document.location = 'default.asp'">HTML Tutorial</button>
+        <br><br>
+
+        <!-- Link titles - specifies extra information about an element -->
+        <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML tutorial</a>
+        <br><br>
+
+        <!-- External Paths -->
+        <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+        <br><br>
+
+        <!-- Located in the html folder on the current web site -->
+        <a href="/html/default.asp">HTML tutorial</a>
+        <br><br>
+
+        <!-- Located in the same folder as the current page -->
+        <a href="default.asp">HTML tutorial</a>
+
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Internal CSS, CSS Fonts, CSS Border, CSS Padding, CSS Margin -->
+        <!-- id Attribute -->
+        <style>
+            body {
+                background-color: powderblue;
+            }
+            h1 {
+                color: blue;
+                font-family: verdana;
+                font-size: 300%;
+            }
+            p {
+                color: red;
+                font-family: courier;
+                font-size: 160%;
+                border: 1px solid powderblue;
+                padding: 30px;
+                margin: 50px;
+            }
+            #p01 {
+                color: blue;
+            }
+            p.error {
+                color: red;
+            }
+        </style>
+        <!-- External CSS, style sheet located in the same folder as the current page -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- External References -->
+        <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+        <!-- In the html folder on the current website -->
+        <link rel="stylesheet" href="/html/styles.css">
+    </head>
+    <body>
+        <!-- Inline CSS Example -->
+        <h1 style="color: blue;">This is a Blue Heading.</h1>
+
+        <!-- Internal CSS -->
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+        <!-- id Attribute - specific style for one special element (in CSS, write #p01) -->
+        <p id="p01">I am different</p>
+
+        <!-- class Attribute - style for speical types of elements (in CSS, write p.error)-->
+        <p class="error">I am different</p>
+    </body>
+</html>

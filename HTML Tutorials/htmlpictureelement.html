@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- the <picture> element contains a number of <source> elements, letting the browser choose the image that best fits
+        the current view and/or device -->
+        <picture>
+            <source media="(min-width: 650px)" srcset="img_food.jpg">
+            <source media="(min-width: 465px)" srcset="img_car.jpg">
+            <img src="img_girl.jpg">
+        </picture>
+
+        <!-- <picture> is used because of bandwidth (not always necessary to load a large file -->
+        <!-- <picture is also used because of format support (may not support all image formats) -->
+        <picture>
+            <source srcset="img_avatar.png">
+            <source srcset="img_girl.jpg">
+            <img src="img_beatles.gif" alt="Beatles" style="width: auto;">
+        </picture>
+    </body>
+</html>

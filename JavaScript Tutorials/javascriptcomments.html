@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Single line comments can be placed before or after the code -->
+        <h1 id="myH"></h1>
+        <p id="myP"></p>
+
+        <script>
+            // Change heading:
+            document.getElementById("myH").innerHTML = "JavaScript Comments";
+            // Change paragraph:
+            document.getElementById("myP").innerHTML = "My first paragraph.";
+        </script>
+
+        <p id="demo"></p>
+
+        <script>
+            var x = 5;    // Declare x, give it the value of 5
+            var y = x + 2;  // Declare y, give it the value of x + 2 
+            // Write y to demo:
+            document.getElementById("demo").innerHTML = y;
+        </script>
+
+        <!-- Multi-line comments can stretch across multiple lines and are useful for explaining code in more detail -->
+        <h1 id="myH2"></h1>
+        <p id="myP2"></p>
+
+        <script>
+            /*
+            The code below will change
+            the heading with id = "myH2"
+            and the paragraph with id = "myP2"
+            */
+            document.getElementById("myH2").innerHTML = "JavaScript Comments";
+            document.getElementById("myP2").innerHTML = "My first paragraph.";
+        </script>
+
+        <!-- You can comment out a single line of code to not allow it to execute. -->
+        <h2>JavaScript Comments</h2>
+
+        <h1 id="myH3"></h1>
+
+        <p id="myP3"></p>
+
+        <script>
+            //document.getElementById("myH3").innerHTML = "My First Page";
+            document.getElementById("myP3").innerHTML = "My first paragraph.";
+        </script>
+
+        <p>The line starting with // is not executed.</p>
+
+        <!-- You can also comment out multiple lines of code to not allow them to execute. -->
+        <h2>JavaScript Comments</h2>
+        
+        <h1 id="myH4"></h1>
+
+        <p id="myP4"></p>
+
+        <script>
+            /*
+            document.getElementById("myH4").innerHTML = "Welcome to my Homepage";
+            document.getElementById("myP4").innerHTML = "This is my first paragraph.";
+            */
+            document.getElementById("myP4").innerHTML = "The comment-block is not executed.";
+        </script>
+    </body>
+</html>

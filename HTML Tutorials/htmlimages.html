@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="pic_trulli.jpg" alt="Italian Trulli">
+        <img src="img_girl.jpg" alt="Girl in a jacket">
+        <img src="img_chania.jpg" alt="Flowers in Chania">
+
+        <!-- alt attribute - describes the image if the user cannot view it -->
+        <img src="img_chania.jpg" alt="Flowers in Chania">
+        <!-- if the browser cannot find an image, it will display the value of the alt attribute -->
+        <img src="wrongname.gif" alt="Flowers in Chania">
+
+        <!-- Image Size - Width and Height -->
+        <!-- You can use the style attribute -->
+        <img src="img_girl.jpg" alt="Girl in a jacket" style="width: 500px; height: 600px;">
+        <!-- You can also use the width and height attributes -->
+        <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+        <!-- Width and Height, or Style? -->
+        <!-- Use the style attribute so that styles sheets don't change the size of images -->
+        <img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+        <img src="html5.gif" alt="HTML5 Icon" style="width: 128px; height: 128px;">
+
+        <!-- Images in another folder -->
+        <img src="/imageshtml5.gif" alt="HTML5 Icon" style="width: 128px; height: 128px;">
+
+        <!-- Images on another server -->
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools">
+
+        <!-- Animated Images -->
+        <img src="programming.gif" alt="Computer Man" style="width: 48px; height: 48px;">
+
+        <!-- Image as a link -->
+        <a href="default.asp">
+            <img src="smiley.gif" alt="HTML tutorial" style="width: 42px; height: 42px;">
+        </a>
+
+        <!-- Image Floating -->
+        <!-- Let the image float to the right or to the left of a text -->
+        <p><img src="smiley.gif" alt="Smiley Face" style="float: right; width: 42px; height: 42px;">
+        The image will float to the right of the text.</p>
+        <p><img src="smiley.gif" alt="Smiley Face" style="float: left; width: 42px; height: 42px">
+        The image will float to the left of the text.</p>
+    </body>
+</html>

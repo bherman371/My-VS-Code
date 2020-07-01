@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- innerHTML - writing into an HTML element, defines the HTML content -->
+        <h1>My First Web Page</h1>
+        <p>My First Paragraph</p>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = 5 + 6;
+        </script>
+
+        <!-- document.write() - writing into the HTML output, convenient for testing purposes (should only be used for testing) -->
+        <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+
+        <script>
+            document.write(5 + 6);
+        </script>
+
+        <!-- document.write() - deletes all existing HTML if called after an HTML document is loaded -->
+        <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+
+        <button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+        <!-- document.alert() - writing into an alert box, can be used to display data -->
+        <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+
+        <script>
+            window.alert(5 + 6);
+        </script>
+
+        <!-- console.log() - writing into the browser console, used for debugging-->
+        <script>
+            console.log(5 + 6);
+        </script>
+    </body>
+</html>

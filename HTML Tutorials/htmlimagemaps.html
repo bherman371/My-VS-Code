@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- An image map is an image with clickable areas -->
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+            <area shape="rect" coords="34, 44, 270, 350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290, 172, 333, 250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337, 300, 44" alt="Coffee" href="coffee.htm">
+        </map>
+
+        <!-- Shapes
+            rect - rectangular region
+            circle - circular region
+            poly - polygonal region
+            default - entire region
+        -->
+
+        <!-- Coordinates
+            Coordinates come in pairs, one for the x-axis and one for the y-axis (rect)
+            Find center of circle and then define a radius (circle)
+        -->
+
+        <!-- Image Maps and JavaScript -->
+        <!-- You can make an image map that triggers a JavaScript function -->
+        <h2>Image Maps</h2>
+        <p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+            <area shape="circle" coords="337, 300, 44" onclick="myFunction()">
+        </map>
+    </body>
+</html>

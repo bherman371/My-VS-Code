@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- the statements define the output of the JavaScript -->
+        <h2>JavaScript Statements</h2>
+
+        <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+        <p id="demo"></p>
+
+        <script>
+            var x, y, z;  // Statement 1
+            x = 5;    // Statement 2
+            y = 6;    // Statement 3
+            z = x + y;  // Statement 4
+
+            document.getElementById("demo").innerHTML = "The value of z is " + z + ".";  
+        </script>
+
+        <!-- JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments -->
+        <!-- The statement tells the browser to write "Hello Dolly." -->
+        <h2>JavaScript Statements</h2>
+
+        <p>In HTML, JavaScript statements are executed by the browser.</p>
+
+        <p id="demo2"></p>
+
+        <script>
+            document.getElementById("demo2").innerHTML = "Hello Dolly.";
+        </script>
+
+        <!-- JavaScript statements are separated by semicolons -->
+        <!-- Multiple statements are allowed on one line when semicolons separate them -->
+        <h2>JavaScript Statements</h2>
+
+        <p>JavaScript statements are separated by semicolons.</p>
+
+        <p id="demo3"></p>
+
+        <script>
+            var a, b, c;
+            a = 5;
+            b = 6;
+            c = a + b;
+            document.getElementById("demo3").innerHTML = c;
+        </script>
+
+        <p>Multiple statements on one line is allowed.</p>
+
+        <p id="demo4"></p>
+
+        <script>
+            var a, b, c;
+            a = 5; b = 6; c = a + b;
+            document.getElementById("demo4").innerHTML = c;
+        </script>
+
+        <!-- The best place to break a code line is after an operator or a comma. -->
+        <!-- Avoid code lines longer than 80 characters. -->
+
+        <!-- JavaScript makes use of code blocks that are written between { and } -->
+        <h2>JavaScript Statements</h2>
+
+        <p>JavaScript code blocks are written between { and }</p>
+
+        <button type="button" onclick="myFunction()">Click Me!</button>
+
+        <p id="demo5"></p>
+        <p id="demo6"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo5").innerHTML = "Hello Dolly!";
+                document.getElementById("demo6").innerHTML = "How are you?";
+            }
+        </script>
+    </body>
+</html>

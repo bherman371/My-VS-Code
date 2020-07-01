@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Numbers can be written with or without decimals. -->
+        <h2>JavaScript Numbers</h2>
+
+        <p>Number can be written with or without decimals.</p>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = 10.50;
+        </script>
+        
+        <!-- Strings can be written with single or double quotes. -->
+        <h2>JavaScript Strings</h2>
+
+        <p>Strings can be written with double or single quotes.</p>
+
+        <p id="demo2"></p>
+
+        <script>
+            document.getElementById("demo2").innerHTML = 'John Doe';
+        </script>
+
+        <!-- var is used to declare variables -->
+        <h2>JavaScript Variables</h2>
+
+        <p>In this example, x is defined as a variable. Then, x is assigned the value of 6:</p>
+
+        <p id="demo3"></p>
+
+        <script>
+            var x;
+            x = 6;
+            document.getElementById("demo3").innerHTML = x;
+        </script>
+
+        <!-- JavaScript uses arithmetic operators (+, -, *, /). -->
+        <!-- Additionally, JavaScript uses the assignment operator (=). -->
+        <h2>JavaScript Operators</h2>
+
+        <p>JavaScript uses arithmetic operators to compute values (just like algebra).</p>
+
+        <p id="demo4"></p>
+
+        <script>
+            document.getElementById("demo4").innerHTML = (5 + 6) * 10;
+        </script>
+
+        <h2>Assigning JavaScript Values</h2>
+
+        <p>In JavaScript the = operator is used to assign values to variables.</p>
+
+        <p id="demo5"></p>
+
+        <script>
+            var x, y;
+            x = 5;
+            y = 6;
+            document.getElementById("demo5").innerHTML = x + y;
+        </script>
+
+        <!-- JavaScript uses expressions to compute a value. -->
+        <h2>JavaScript Expressions</h2>
+
+        <p>Expressions compute to values.</p>
+
+        <p id="demo6"></p>
+
+        <script>
+            document.getElementById("demo6").innerHTML = 5 * 10;
+        </script>
+
+        <!-- Expressions can contain variables. -->
+        <p id="demo7"></p>
+
+        <script>
+            var x;
+            x = 5;
+            document.getElementById("demo7").innerHTML = x * 10;
+        </script>
+
+        <!-- Expressions can contain multiple variables. -->
+        <p id="demo8"></p>
+
+        <script>
+            document.getElementById("demo8").innerHTML = "John" + " "  + "Doe";
+        </script>
+
+        <!-- var creates variables. -->
+        <h2>The var Keyword Creates Variables</h2>
+
+        <p id="demo9"></p>
+
+        <script>
+            var x, y;
+            x = 5 + 6;
+            y = x * 10;
+            document.getElementById("demo9").innerHTML = y;
+        </script>
+
+        <!-- Comments are ignored and not executed. -->
+        <h2>JavaScript Comments are NOT Executed</h2>
+
+        <p id="demo10"></p>
+
+        <script>
+            var x;
+            x = 5; // I will be executed
+            // x = 6; I will not be executed
+            document.getElementById("demo10").innerHTML = x;
+        </script>
+
+        <!-- For identifiers in JavaScript, the first character must be a letter, or an underscore (_), or a dollar sign ($).-->
+
+        <!-- lastname and lastName are two different variables. -->
+        <h2>JavaScript is Case Sensitive</h2>
+
+        <p>Try change lastName to lastname.</p>
+
+        <p id="demo11"></p>
+
+        <script>
+            var lastname, lastName;
+            lastName = "Doe";
+            lastname = "Peterson";
+            document.getElementById("demo11").innerHTML = lastName;
+        </script>
+    </body>
+</html>
